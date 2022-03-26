@@ -35,7 +35,44 @@ const reviews = [
             "https://i.postimg.cc/pVhWZHdX/ice-cream.jpg",
         text:
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ipsa vero porro distinctio magni non, explicabo itaque dicta excepturi. lorem lorem lorem lore,",
+    },
+    {
+        id: 5,
+        name: "Peter Jones",
+        job: "Intern",
+        img:
+            "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
+        text:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolores voluptatem nobis repellendus inventore non deserunt explicabo maiores iure alias",    
+    },
+    {
+        id: 6,
+        name: "Peter Jones",
+        job: "Intern",
+        img:
+            "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
+        text:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolores voluptatem nobis repellendus inventore non deserunt explicabo maiores iure alias",    
+    },
+    {
+        id: 7,
+        name: "Peter Jones",
+        job: "Intern",
+        img:
+            "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
+        text:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolores voluptatem nobis repellendus inventore non deserunt explicabo maiores iure alias",    
+    },
+    {
+        id: 8,
+        name: "Peter Jones",
+        job: "Intern",
+        img:
+            "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
+        text:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolores voluptatem nobis repellendus inventore non deserunt explicabo maiores iure alias",    
     }
+
 ];
 
 // select items
