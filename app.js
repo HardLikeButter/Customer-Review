@@ -2,8 +2,8 @@
 const reviews = [
     {
         id: 1,
-        name: "Susan Smith",
-        job: "Web Developer",
+        name: "Mark Rowley",
+        job: "Irish warrior ",
         img: 
             "picsForCR/best-chocolateCookie.jpeg",
         text: 
@@ -11,8 +11,8 @@ const reviews = [
     },
     {
         id: 2,
-        name: "Anna Johnson",
-        job: "Web Designer",
+        name: "Arnas Fedaravičius",
+        job: "Viking warrior",
         img: 
             "https://i.postimg.cc/k5rvh9QN/pizza-slice.jpg",
         text:
@@ -20,8 +20,8 @@ const reviews = [
     },
     {
         id: 3,
-        name: "Peter Jones",
-        job: "Intern",
+        name: "Millie Brady",
+        job: "Ruler of Mercia",
         img:
             "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
         text:
@@ -29,17 +29,17 @@ const reviews = [
     },
     {
         id: 4,
-        name: "Bill Anderson",
-        job: "The Boss",
+        name: "Emily Cox",
+        job: "CEO at Danes",
         img: 
             "https://i.postimg.cc/pVhWZHdX/ice-cream.jpg",
         text:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ipsa vero porro distinctio magni non, explicabo itaque dicta excepturi. lorem lorem lorem lore,",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ipsa vero porro distinctio magni non, explicabo itaque dicta excepturi. lorem lorem,",
     },
     {
         id: 5,
-        name: "Peter Jones",
-        job: "Intern",
+        name: "Alexander Dreymon",
+        job: "Lord of Bebbanburg",
         img:
             "picsForCr/burger.jpg",
         text:
@@ -47,8 +47,8 @@ const reviews = [
     },
     {
         id: 6,
-        name: "Peter Jones",
-        job: "Intern",
+        name: "Tobias Santelmann",
+        job: "Lord of  Dunholm",
         img:
             "picsforCr/ramen.jpg",
         text:
@@ -56,8 +56,8 @@ const reviews = [
     },
     {
         id: 7,
-        name: "Peter Jones",
-        job: "Intern",
+        name: "David Dawson",
+        job: "Wessex CEO",
         img:
             "picsForCR/brownieIcecream.jpg",
         text:
@@ -65,8 +65,8 @@ const reviews = [
     },
     {
         id: 8,
-        name: "Peter Jones",
-        job: "Intern",
+        name: "Ian Hart",
+        job: "Worshipper",
         img:
             "picsForCr/sushi.jpeg",
         text:
