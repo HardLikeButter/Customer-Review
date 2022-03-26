@@ -5,7 +5,7 @@ const reviews = [
         name: "Susan Smith",
         job: "Web Developer",
         img: 
-            "https://i.postimg.cc/XqppKGzV/cookie.jpg",
+            "picsForCR/best-chocolateCookie.jpeg",
         text: 
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ullam cupiditate nulla esse necessitatibus laboriosam sit ab temporibus hic rerum?",
     },
@@ -41,7 +41,7 @@ const reviews = [
         name: "Peter Jones",
         job: "Intern",
         img:
-            "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
+            "picsForCr/burger.jpg",
         text:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolores voluptatem nobis repellendus inventore non deserunt explicabo maiores iure alias",    
     },
@@ -50,7 +50,7 @@ const reviews = [
         name: "Peter Jones",
         job: "Intern",
         img:
-            "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
+            "picsforCr/ramen.jpg",
         text:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolores voluptatem nobis repellendus inventore non deserunt explicabo maiores iure alias",    
     },
@@ -59,7 +59,7 @@ const reviews = [
         name: "Peter Jones",
         job: "Intern",
         img:
-            "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
+            "picsForCR/brownieIcecream.jpg",
         text:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolores voluptatem nobis repellendus inventore non deserunt explicabo maiores iure alias",    
     },
@@ -68,7 +68,7 @@ const reviews = [
         name: "Peter Jones",
         job: "Intern",
         img:
-            "https://i.postimg.cc/zvWxfBFf/fried-Chicken.jpg",
+            "picsForCr/sushi.jpeg",
         text:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolores voluptatem nobis repellendus inventore non deserunt explicabo maiores iure alias",    
     }
