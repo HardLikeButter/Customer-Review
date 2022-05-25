@@ -131,26 +131,64 @@ const randomBtn= document.querySelector(".random-btn");
 //     showPerson();
 // })
 
+// let currentItem = 0;
+
+// window.addEventListener('DOMContentLoaded', () => {
+//     showPerson(currentItem);
+// });
+
+
+// function showPerson() {
+//     const item = reviews[currentItem];
+    
+//     img.src = item.img;
+//     author.textContent = item.name;
+//     job.textContent = item.job;
+//     info.textContent = item.text;
+// }
+
+// prevBtn.addEventListener('click', () => {
+//     currentItem--;
+//     if (currentItem < 0) {
+//         currentItem = reviews.length - 1;
+//     }
+//     showPerson();
+// });
+
+// nextBtn.addEventListener('click', () => {
+//     currentItem++;
+//     if (currentItem > reviews.length - 1) {
+//         currentItem = 0;
+//     }
+//     showPerson();
+// });
+
+
+// randomBtn.addEventListener('click', () => {
+//     currentItem = Math.floor(Math.random() * reviews.length);
+//     showPerson();
+// });
+
 let currentItem = 0;
 
 window.addEventListener('DOMContentLoaded', () => {
     showPerson(currentItem);
 });
 
-
 function showPerson() {
     const item = reviews[currentItem];
-    
+
     img.src = item.img;
     author.textContent = item.name;
     job.textContent = item.job;
     info.textContent = item.text;
 }
 
+
 prevBtn.addEventListener('click', () => {
     currentItem--;
     if (currentItem < 0) {
-        currentItem = reviews.length - 1;
+        currentItem = reviews.length -1;
     }
     showPerson();
 });
@@ -162,7 +200,6 @@ nextBtn.addEventListener('click', () => {
     }
     showPerson();
 });
-
 
 randomBtn.addEventListener('click', () => {
     currentItem = Math.floor(Math.random() * reviews.length);
