@@ -88,45 +88,83 @@ const randomBtn= document.querySelector(".random-btn");
 
 
 
+// let currentItem = 0;
+
+// window.addEventListener("DOMContentLoaded", function () {
+//     showPerson(currentItem);
+// })
+
+
+
+
+// function showPerson() {
+//     const item = reviews[currentItem];
+
+//     img.src = item.img;
+//     author.textContent = item.name;
+//     job.textContent = item.job;
+//     info.textContent = item.text;
+// }
+
+
+// prevBtn.addEventListener("click", () => {
+//     currentItem--;
+//     if (currentItem < 0) {
+//         currentItem = reviews.length -1;
+//     }
+//     showPerson(currentItem);
+// });
+
+
+// nextBtn.addEventListener("click", () => {
+//     currentItem++;
+//     if (currentItem > reviews.length - 1) {
+//         currentItem = 0;
+//     }
+//     showPerson(currentItem);
+// })
+
+
+// randomBtn.addEventListener("click", () => {
+//     currentItem = Math.floor(Math.random() * reviews.length);
+//     console.log(currentItem);
+//     showPerson();
+// })
+
 let currentItem = 0;
 
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener('DOMContentLoaded', () => {
     showPerson(currentItem);
-})
-
-
+});
 
 
 function showPerson() {
     const item = reviews[currentItem];
-
+    
     img.src = item.img;
     author.textContent = item.name;
     job.textContent = item.job;
     info.textContent = item.text;
 }
 
-
-prevBtn.addEventListener("click", () => {
+prevBtn.addEventListener('click', () => {
     currentItem--;
     if (currentItem < 0) {
-        currentItem = reviews.length -1;
+        currentItem = reviews.length - 1;
     }
-    showPerson(currentItem);
+    showPerson();
 });
 
-
-nextBtn.addEventListener("click", () => {
+nextBtn.addEventListener('click', () => {
     currentItem++;
     if (currentItem > reviews.length - 1) {
         currentItem = 0;
     }
-    showPerson(currentItem);
-})
-
-
-randomBtn.addEventListener("click", () => {
-    currentItem = Math.floor(Math.random() * reviews.length);
-    console.log(currentItem);
     showPerson();
-})
+});
+
+
+randomBtn.addEventListener('click', () => {
+    currentItem = Math.floor(Math.random() * reviews.length);
+    showPerson();
+});
